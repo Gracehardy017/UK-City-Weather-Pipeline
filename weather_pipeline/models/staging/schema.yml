@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: stg_weather
+    tests:
+      - unique:
+          column_name: "city || timestamp"
+    columns:
+      - name: city
+        tests:
+            - not_null
+            - accepted_values:
+                values: ['London','Manchester','Leeds','Liverpool','Bristol','Portsmouth']
+      - name: timestamp
+        tests:
+          - not_null
+      - name: temperature_2m
+        tests:
+            - not_null
+      - name: shortwave_radiation
+        tests:
+            - not_null
