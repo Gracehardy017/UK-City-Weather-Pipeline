@@ -1,0 +1,9 @@
+duckdb
+pandas
+requests
+pydantic
+python-dotenv
+pyarrow
+boto3
+dbt-duckdb
+protobuf==3.20.3

@@ -5,3 +5,8 @@ __pycache__/
 venv/
 .idea/
 duckdb_weather.duckdb
+docker-compose.yaml
+/airflow/docker-compose.yaml
+/airflow/.env
+/airflow/logs
+

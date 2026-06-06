@@ -4,7 +4,7 @@ from io import BytesIO
 import boto3
 from datetime import date
 import logging
-from schemas_validation import weather_record_check
+from Data_Ingestion.schemas_validation import weather_record_check
 from pydantic import ValidationError
 
 cities = {
